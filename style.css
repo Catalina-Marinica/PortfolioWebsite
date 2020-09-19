@@ -1,0 +1,139 @@
+/* XS - Default */
+
+body{
+    background-color: #F8F8F8;
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(iconfinder_menu-alt_134216.svg);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,0);
+     border-color: rgba(0,0,0,0);
+}
+
+.jumbotron{
+    background-color: #f8f8f800;
+}
+
+h1{
+    font-family: 'Courgette', cursive ;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.h1{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #034256;
+    border-color:#034256;
+}
+
+.btn-primary:hover{
+    background-color:#027092 ;
+    transition-duration: 0.5s;
+}
+
+.btn-lg{
+    font-size:1rem;
+}
+
+.my-blue-container{
+    background-color:#034256 ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+a{
+    color:white;
+}
+
+.correction{
+    margin-left: 1.8rem;
+}
+
+li{
+    margin-bottom: 0.8rem;
+}
+
+
+
+a:hover{
+    color:white;
+}
+
+hr{
+    border-top: 4px solid black;
+    width: 6rem;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.hr-white{
+    border-top-color: white;
+}
+
+.hr-nav{
+    border-top: 1px solid lightgray;
+    width: 100%;
+    margin: 0.5rem 0;
+    
+}
+
+.hover img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover:hover img {
+	-webkit-filter: grayscale(0) blur(4px);
+	filter: grayscale(0%) blur(4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MD */
+
+@media (min-width: 768px){
+    h1{
+        font-size: 3.2rem;
+        line-height: 3.5rem; 
+    }
+
+    .h1{
+        font-size: 2rem;
+        line-height: 3rem; 
+    }
+
+    .correction{
+        margin-left: 3rem;
+    }
+}
+
+
+
+
+
+

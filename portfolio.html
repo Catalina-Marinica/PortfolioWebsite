@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalina Marinica - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+    />
+
+    
+
+    <!--Google Fonts  -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif&display=swap"
+    rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+    
+    <div class="container px-3 pt-4 pb-md-5">
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-light px-0 ">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="Logo.svg" alt="Logo" width="70" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-5 mt-md-0" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+                    
+                    <li class="nav-item  ml-lg-4">
+                        <hr class="hr-nav d-lg-none"/>
+                        <a class="nav-link" href="index.html">Home </a>
+                        <hr class="hr-nav d-lg-none"/>
+                    </li>
+                    <li class="nav-item  ml-lg-4">
+                        <a class="nav-link " href="about.html">About</a>
+                        <hr class="hr-nav d-lg-none"/>
+                    </li>
+                    <li class="nav-item active ml-lg-4 ">
+                        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        <hr class="hr-nav d-lg-none"/>
+                    </li>
+                
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Gallery -->
+        <p class="h1 mt-5">Portfolio</p>
+        <hr class="mb-md-5 "/>
+    
+        <div class="row " id="gallery" data-toggle="modal" data-target="#exampleModal">
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover ">
+              <img class="w-100 shadow" src="images/IoanaHodor.png" data-target="#carouselExample" data-slide-to="0" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/CatalinaMarinica.png" data-target="#carouselExample" data-slide-to="1" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Diana1.png" data-target="#carouselExample" data-slide-to="2" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Ahri.png" data-target="#carouselExample" data-slide-to="3" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Ashe.PNG" data-target="#carouselExample" data-slide-to="4" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Jhin.png" data-target="#carouselExample" data-slide-to="5" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Gnar1.png" data-target="#carouselExample" data-slide-to="6" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Oriana.png" data-target="#carouselExample" data-slide-to="7" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/alcd.png" data-target="#carouselExample" data-slide-to="8" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/erickonavarro.png" data-target="#carouselExample" data-slide-to="9" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/erickonavarro(2).png" data-target="#carouselExample" data-slide-to="10" alt="">
+            </div>
+            
+
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Plants.png" data-target="#carouselExample" data-slide-to="11" alt="">
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/GuineaPigs1.jpg" data-target="#carouselExample" data-slide-to="12" alt="">
+            </div>
+        
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-5 hover">
+              <img class="w-100 shadow" src="images/Landscape.png" data-target="#carouselExample" data-slide-to="13" alt="">
+            </div>
+        
+        
+        </div>
+    
+        <!-- Modal markup: https://getbootstrap.com/docs/4.4/components/modal/ -->
+        <div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                <div class="modal-body">
+                
+                <!-- Carousel markup: https://getbootstrap.com/docs/4.4/components/carousel/ -->
+                <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel" data-interval="false">
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item  active ">
+                            <img src="images/IoanaHodor.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Ioana Hodor</h5>
+                            </div>
+                        </div>
+                      
+                        <div class="carousel-item">
+                            <img src="images/CatalinaMarinica.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3 ">
+                                <h5>Catalina Marinica</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/Diana1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Diana, Scorn Of The Moon</h5>
+                                <p>League of Legends Champion Skin</p>
+                            </div>
+                        </div>
+                    
+
+                        <div class="carousel-item">
+                            <img src="images/Ahri.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Ahri, The Nine-Tailed Fox</h5>
+                                <p>League of Legends Champion</p>
+                            </div>
+                        </div>
+                    
+
+                        <div class="carousel-item">
+                            <img src="images/Ashe.PNG" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Ashe, The Frost Archer</h5>
+                                <p>League of Legends Champion Skin</p>
+                            </div>
+                        </div>
+                    
+
+                        <div class="carousel-item">
+                            <img src="images/Jhin.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Jhin, The Virtuoso</h5>
+                                <p>League of Legends Champion</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/Gnar1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Gnar, The Missing Link</h5>
+                                <p>League of Legends Champion Skin</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/Oriana.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Orianna, The Lady of Clockwork</h5>
+                                <p>League of Legends Champion Skin</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/alcd.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Dark Souls 3</h5>
+                                <p>Original Artist: alcd</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/erickonavarro.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Shield Design</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/erickonavarro(2).png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Face-Mask Design</h5>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/Plants.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Plants</h5>
+                            </div>
+                        </div>
+                      
+                        <div class="carousel-item">
+                            <img src="images/GuineaPigs1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Guinea Pigs</h5>
+                                <p>Puffy & Cristobal</p>
+                            </div>
+                        </div>
+                      
+                        <div class="carousel-item">
+                            <img src="images/Landscape.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption text-black-50 position-static mt-3">
+                                <h5>Landscape</h5>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary px-3" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+          
+</div> 
+
+
+    <footer class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-black-50">©Cătălina Marinică 2020 Portfolio Website</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+    
+    
+
+
+
+
+    
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+    ></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+    ></script>
+
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+    ></script>
+
+
+</body>
+</html>
